@@ -1,60 +1,134 @@
 # VisionStack Lab
 
-VisionStack Lab is a collaborative engineering and research group focused on building
-**scalable computer vision and perception systems** for autonomous platforms.
+### Robotics & Intelligent Systems Perception
 
-Our long-term goal is to develop perception software that can be integrated across
-**UUVs (Underwater Unmanned Vehicles), UAVs, and autonomous vehicles of all scales** —
-from small experimental platforms to large, real-world systems.
+VisionStack Lab is a long-term robotics research initiative focused on building **robust, efficient and reliable intelligent systems** for real-world deployment.
 
-We work **bottom-up**:
-geometry before models, sensors before learning, systems before hype.
+The lab develops computational foundations in:
+
+* Dynamics
+* Feedback control
+* State estimation
+* Perception
+* Planning
+* Intelligent decision systems
+
+The aim is to design perception and control architectures that can be integrated into:
+
+* Unmanned Aerial Vehicles (UAVs)
+* Manned Aerial Vehicles
+* Unmanned Underwater Vehicles (UUVs)
+* Autonomous ground vehicles (self-driving cars, trucks)
+* Miniaturised autonomous machines and embedded systems
+
+VisionStack is built for longevity — from foundational engineering development through to advanced research contributions.
 
 ---
 
 ## Core Principles
 
-- **First principles over frameworks**  
-  We prioritise geometry, physics, sensing, and systems understanding before deep learning.
+VisionStack Lab operates under three uncompromising goals:
 
-- **Platform thinking**  
-  Code is written to be reusable across domains (land, air, sea), not tied to one vehicle.
+**Efficiency**
+Systems must use computational and physical resources intelligently.
+Algorithmic discipline is prioritised over brute-force solutions.
 
-- **Explainability and rigour**  
-  Every contribution must be explainable in words, not just executable.
+**Effectiveness**
+Models must solve the problem they are designed for — not just perform well in isolated simulations.
 
-- **Engineering discipline**  
-  Reproducibility, documentation, and clarity matter as much as performance.
-
----
-
-## Repository Structure
-
-- `visionstack-foundations`  
-  Mathematical and computational foundations: linear algebra, geometry, images as data.
-
-- `visionstack-cv`  
-  Classical computer vision: feature extraction, geometry-based vision, camera models.
-
-- `visionstack-sensors`  
-  Real-world sensing: cameras, LiDAR, point clouds, calibration, sensor models.
-
-Future repositories will be added **only when earned**, including learning-based
-perception and multi-sensor fusion.
+**Reliability**
+Robotics operates in the physical world.
+Systems must remain stable, predictable and fault-tolerant under uncertainty.
 
 ---
 
-## Who This Lab Is For
+## Architectural Philosophy
 
-- Engineers and researchers interested in **perception systems**
-- Mechanical, electrical, and software engineers working on autonomy
-- Contributors who value understanding *why systems work*, not just *that they work*
+Robotic intelligence is layered.
+
+VisionStack develops systems through structured abstraction:
+
+1. Physical modelling (dynamics)
+2. Feedback control
+3. State estimation under noise
+4. Environmental perception
+5. Path planning and decision logic
+6. Learning-based adaptation
+
+Each layer is treated as modular and testable.
+
+Perception without control is blind.
+Control without estimation is unstable.
+Learning without structure is fragile.
 
 ---
 
-## Culture
+## Research Direction
 
-VisionStack Lab is a **lab**, not a chat group.
-Ideas live in code, issues, and documentation — not in disappearing messages.
+VisionStack Lab focuses on:
 
-If it can’t be explained clearly, it isn’t finished.
+* Simulation-driven robotics foundations
+* Embedded-aware algorithm design
+* State estimation and sensor fusion
+* Autonomous navigation
+* Scalable perception systems
+* Intelligent control architectures
+
+All systems are designed to be transferable from simulation to hardware.
+
+Cloud infrastructure is used for computational development.
+Hardware integration is treated as validation of theory.
+
+---
+
+## Current Development Focus
+
+The present phase concentrates on:
+
+* Mathematical modelling of physical systems
+* Classical and optimal control design
+* Kalman filtering and probabilistic estimation
+* Planning algorithms (A*, grid navigation)
+* Reinforcement learning foundations
+
+These form the computational backbone for future UAV, UUV and autonomous vehicle integration.
+
+---
+
+## Infrastructure Model
+
+VisionStack Lab operates on a distributed cloud development model:
+
+* Oracle Cloud (primary research node)
+* Azure VM (development and experimentation node)
+* GitHub as the coordination and version control backbone
+
+All development follows structured repository architecture with modular separation between dynamics, control, estimation, planning and learning.
+
+---
+
+## Long-Term Objective
+
+VisionStack Lab aims to mature into a fully developed robotics and intelligent systems research platform capable of contributing to:
+
+* Autonomous aerospace systems
+* Maritime robotics
+* Ground autonomy
+* Miniaturised intelligent machines
+* Safety-critical perception systems
+
+The long-term vision extends beyond projects — towards building resilient intelligent architectures that operate reliably in uncertain environments.
+
+---
+
+## Vision
+
+To design intelligent robotic systems that are:
+
+* Mathematically grounded
+* Computationally disciplined
+* Architecturally scalable
+* Field-ready
+
+VisionStack Lab is not a short-term experiment.
+It is a sustained engineering pursuit.
